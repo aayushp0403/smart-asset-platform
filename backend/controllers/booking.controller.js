@@ -1,8 +1,6 @@
 const Booking = require("../models/Booking");
 const Asset = require("../models/Asset");
 
-// user: browse available assets already handled in asset routes
-
 // user: request a booking
 exports.createBooking = async (req, res) => {
   try {
@@ -135,7 +133,7 @@ exports.getOverdueBookings = async (req, res) => {
     const now = new Date();
     const overdue = await Booking.find({
       status: "approved",
-      endDate: { $lt: now }, // past end date but not returned
+      endDate: { $lt: now },
     })
       .populate("userId", "name email")
       .populate("assetId", "name category");
