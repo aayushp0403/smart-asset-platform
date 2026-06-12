@@ -8,7 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// placeholder — routes come next phase
+// routes
+app.use("/api/auth", require("./routes/auth.routes"));
+app.use("/api/assets", require("./routes/asset.routes"));
+
 app.get("/", (req, res) => res.send("API running"));
 
 mongoose
