@@ -11,7 +11,7 @@ app.use(express.json());
 // routes
 app.use("/api/auth", require("./routes/auth.routes"));
 app.use("/api/assets", require("./routes/asset.routes"));
-
+app.use("/api/bookings", require("./routes/booking.routes"));
 app.get("/", (req, res) => res.send("API running"));
 
 mongoose
