@@ -2,6 +2,8 @@
 
 A full-stack web application for a Cultural Council to manage shared resources — track inventory, handle booking requests, approve/reject loans, and monitor overdue returns.
 
+https://github.com/user-attachments/assets/a47087cc-5881-47b2-b08c-47826f43b483
+
 ---
 
 ## Tech Stack
