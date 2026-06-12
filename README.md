@@ -171,4 +171,4 @@ Register with `role: user` (default) for the User Dashboard.
 
 ## Author
 
-**aayus** — [@aayushp0403](https://github.com/aayushp0403)
+**Aayush Patel** — [@aayushp0403](https://github.com/aayushp0403)
