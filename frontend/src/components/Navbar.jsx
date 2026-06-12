@@ -21,14 +21,20 @@ const Navbar = () => {
             <span className="text-sm opacity-80">
               {user.name} ({user.role})
             </span>
-            {user.role === "admin" && (
+            {user.role === "admin" ? (
               <Link to="/admin" className="text-sm hover:underline">
                 Admin Panel
               </Link>
+            ) : (
+              <>
+                <Link to="/dashboard" className="text-sm hover:underline">
+                  Dashboard
+                </Link>
+                <Link to="/history" className="text-sm hover:underline">
+                  My History
+                </Link>
+              </>
             )}
-            <Link to="/dashboard" className="text-sm hover:underline">
-              Dashboard
-            </Link>
             <button
               onClick={handleLogout}
               className="bg-white text-indigo-700 text-sm px-3 py-1 rounded hover:bg-indigo-100"
