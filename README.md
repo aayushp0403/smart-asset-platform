@@ -42,86 +42,46 @@ A full-stack web application for a Cultural Council to manage shared resources �
 
 ```text
 smart-asset-platform/
-
 ├── backend/
-
 │   ├── controllers/
-
 │   │   ├── auth.controller.js
-
 │   │   ├── asset.controller.js
-
 │   │   └── booking.controller.js
-
 │   ├── middleware/
-
 │   │   └── auth.middleware.js
-
 │   ├── models/
-
 │   │   ├── User.js
-
 │   │   ├── Asset.js
-
 │   │   └── Booking.js
-
 │   ├── routes/
-
 │   │   ├── auth.routes.js
-
 │   │   ├── asset.routes.js
-
 │   │   └── booking.routes.js
-
 │   ├── .env
-
 │   ├── package.json
-
 │   └── server.js
-
 └── frontend/
-
-├── src/
-
-│   ├── api/
-
-│   │   └── axios.js
-
-│   ├── components/
-
-│   │   ├── BookingModal.jsx
-
-│   │   ├── Navbar.jsx
-
-│   │   └── ProtectedRoute.jsx
-
-│   ├── context/
-
-│   │   └── AuthContext.jsx
-
-│   ├── pages/
-
-│   │   ├── AdminDashboard.jsx
-
-│   │   ├── Login.jsx
-
-│   │   ├── Register.jsx
-
-│   │   ├── UserDashboard.jsx
-
-│   │   └── UserHistory.jsx
-
-│   ├── App.jsx
-
-│   ├── main.jsx
-
-│   └── index.css
-
-├── tailwind.config.js
-
-├── postcss.config.js
-
-└── vite.config.js
+    ├── src/
+    │   ├── api/
+    │   │   └── axios.js
+    │   ├── components/
+    │   │   ├── BookingModal.jsx
+    │   │   ├── Navbar.jsx
+    │   │   └── ProtectedRoute.jsx
+    │   ├── context/
+    │   │   └── AuthContext.jsx
+    │   ├── pages/
+    │   │   ├── AdminDashboard.jsx
+    │   │   ├── Login.jsx
+    │   │   ├── Register.jsx
+    │   │   ├── UserDashboard.jsx
+    │   │   └── UserHistory.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── tailwind.config.js
+    ├── postcss.config.js
+    └── vite.config.js
 ```
 
 ---
